@@ -1,4 +1,4 @@
-# GenLayer Appeal Process — Appeal-Aware Verdict System
+# GenLayer Appeal Process  Appeal-Aware Verdict System
 
 A practical implementation of the GenLayer Appeal Process built on Testnet Bradbury. The contract demonstrates how Optimistic Democracy handles disputed verdicts through escalating validator rounds.
 

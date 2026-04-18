@@ -40,6 +40,8 @@ Go to GenLayer Studio at https://studio.genlayer.com and create a new file calle
 
 Follow this order and wait for FINALIZED before each next step. Run get_summary first, then submit_case, then evaluate, then get_case to check the verdict, then register_appeal if you want to challenge it, then re_evaluate, then get_case again to see the final outcome.
 
+Note: the contract in this repository uses the Address type in the constructor as required by genvm-lint. When deploying in GenLayer Studio use a version that receives str in the constructor and converts internally with Address(owner_address) since Studio requires primitive types to parse the contract schema correctly.
+
 ## Resources
 
 GenLayer Appeal Process: https://docs.genlayer.com/understand-genlayer-protocol/core-concepts/optimistic-democracy/appeal-process
